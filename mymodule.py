@@ -1,2 +1,4 @@
+from colorama import init,Fore
+
 def greeting(name):
-    print("Hello, " + name)
+    print(Fore.LIGHTCYAN_EX + "Hello, " + name)
